@@ -3,12 +3,10 @@ package stepdefinitions;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utils.ConfigReader;
 import utils.DriverFactory;
 
-import java.util.Set;
 
 public class Hooks {
     WebDriver driver;
@@ -20,7 +18,7 @@ public class Hooks {
     }
 
     @After
-    public void tearDown(Scenario scenario) {
+    public void tearDown() {
 
 //         if (DriverFactory.getDriver() != null) {
 //            DriverFactory.getDriver().quit();

@@ -3,12 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import utils.ConfigReader;
 import utils.DriverFactory;
 import org.openqa.selenium.support.PageFactory;
-import java.time.Duration;
 
 public class LoginPage {
     static WebDriver driver= DriverFactory.driver;

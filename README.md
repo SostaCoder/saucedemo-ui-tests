@@ -1,6 +1,6 @@
 # SauceDemo UI Automation Framework
 
-This project is a UI test automation framework for [SauceDemo](https://www.saucedemo.com/), built using **Java**, **Selenium**, **Cucumber**, and **TestNG**. It demonstrates the use of Page Object Model (POM), multi-browser support, parallel execution, data-driven testing, and reporting.
+This project is a UI test automation framework for [SauceDemo](https://www.saucedemo.com/), built using **Java**, **Selenium**, **Cucumber**, and **TestNG**. It demonstrates the use of Page Object Model (POM), multi-browser support, parallel execution, and data-driven testing.
 
 ---
 
@@ -12,7 +12,6 @@ This project is a UI test automation framework for [SauceDemo](https://www.sauce
 - Cucumber (Gherkin)
 - TestNG
 - WebDriverManager
-- Extent Reports (optional)
 - Git
 
 ---
@@ -62,13 +61,6 @@ saucedemo-ui-tests/
 4.     Complete checkout 
 5.     Verify totals and thank-you message
 
-🖥️ Test Report
-
-After running the tests, a report is generated:
->> target/cucumber-report.html
-
-Open this file in a browser to view results.
-
 📂 Test Data:
 
     Test data is stored in src/test/resources/testdata/loginData.csv.
@@ -80,7 +72,6 @@ Open this file in a browser to view results.
 *     Parallel execution using TestNG
 *     Configurable properties
 *     Data-driven testing
-*     HTML test report
 *     Git integrated
 
 📌 Author

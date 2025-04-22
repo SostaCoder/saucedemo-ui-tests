@@ -12,9 +12,7 @@ This project is a UI test automation framework for [SauceDemo](https://www.sauce
 - Cucumber (Gherkin)
 - TestNG
 - WebDriverManager
-- Extent Reports (optional)
 - Git
-
 ---
 
 ## 📁 Project Structure
@@ -62,16 +60,12 @@ saucedemo-ui-tests/
 4.     Complete checkout 
 5.     Verify totals and thank-you message
 
-🖥️ Test Report
-
-After running the tests, a report is generated:
->> target/cucumber-report.html
-
 Open this file in a browser to view results.
 
 📂 Test Data:
 
-    Test data is stored in src/test/resources/testdata/loginData.csv.
+   I used Scenario Outline and Examples in Cucumber to store date and run with different test data
+   Also, I tried to store Test data src/test/resources/testdata/loginData.csv. and parse it in the code.
 
 ✅ Features Implemented
 *     Page Object Model 
@@ -80,7 +74,6 @@ Open this file in a browser to view results.
 *     Parallel execution using TestNG
 *     Configurable properties
 *     Data-driven testing
-*     HTML test report
 *     Git integrated
 
 📌 Author
